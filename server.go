@@ -140,6 +140,5 @@ func main() {
 	router.DELETE("/books/:id", deleteBookById)
 	router.PATCH("/checkout", checkoutBook)
 	router.PATCH("/addBook", addBook)
-
 	router.Run(":8080")
 }
